@@ -23,7 +23,7 @@ const scrapping = async (product) =>
                     link: link,
                     price: price,
                     store: store ? store : null,
-                    state: state ? store : null
+                    state: state ? state : null
                 })
             }else{
                 return false;

@@ -1,7 +1,6 @@
 const scrapping = require('../models/crawler')
 
 exports.post = async(req,res) => {
-
     try{
         await scrapping(req.body).then(r => {
             res.status(200).send(r);
