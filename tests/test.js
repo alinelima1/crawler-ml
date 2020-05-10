@@ -35,7 +35,6 @@ describe('Teste de funcionalidades', () => {
                     "search": "cadeado",
                     "limit": 3
                 });
-                console.log(res)
                 expect(JSON.parse(res).length()).toBe(3)
             }
         })
