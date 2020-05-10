@@ -17,10 +17,16 @@
   },
   "homepage": "https://github.com/alinelima1/crawler-ml#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "jest": "^26.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
     "spider": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
