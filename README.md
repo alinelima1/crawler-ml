@@ -1,6 +1,6 @@
 # Crawler ML
 
-Crawler criado para buscar uma lista de produtos no mercado livre, retornando os seguintes atributos:
+Crawler criado para buscar uma lista de produtos no Mercado Livre, retornando os seguintes atributos:
 - Nome
 - URL do produto
 - Preço
