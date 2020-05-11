@@ -24,7 +24,7 @@ function normalizePort(val) {
 }
 
 function onError(err) {
-    if(erros.syscall != 'listen'){
+    if(err.syscall != 'listen'){
         throw err;
     }
     const bind = typeof port == 'string' ?

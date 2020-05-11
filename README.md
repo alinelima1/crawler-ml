@@ -11,6 +11,10 @@ Para executar a aplicação é necessário executar o comando:
 
 ```npm install```
 
+Para executar a aplicação à partir da pasta raiz:
+
+```nodemon server/server.js``
+
 Para executar os testes é necessário executar o comando:
 
 ```npm test```
